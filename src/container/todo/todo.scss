@@ -1,0 +1,21 @@
+.todo-container {
+    .add-box {
+        display: flex;
+        height: 40px;
+        justify-content: flex-start;
+        align-items: center;
+
+        .add-input {
+            display: inline-block;
+            width: 300px;
+        }
+    }
+
+    .todo-name {
+        display: inline-block;
+        margin-right: 20px;
+        width: 300px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
