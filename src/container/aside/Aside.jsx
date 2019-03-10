@@ -34,6 +34,11 @@ class Aside extends Component {
                 href: '/page3',
                 icon: 'setting'
             },
+            {
+                name: 'page4',
+                href: '/page4',
+                icon: 'bar-chart'
+            },
             ]
         }
     }

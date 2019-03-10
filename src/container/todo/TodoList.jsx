@@ -16,7 +16,7 @@ const TodoList = (props) => {
                             {
                                 isEditting ? <Input value={name} /> : <span className="todo-name">{name}</span>
                             }
-                            <span>{format(createTime, 'YY-MM-DD hh:mm:ss')}</span>
+                            <span>{format(createTime, 'YYYY-MM-DD hh:mm:ss')}</span>
                             <Icon type="edit" onClick={() => {
 
                             }} />
